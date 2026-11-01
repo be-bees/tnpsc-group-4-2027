@@ -1,0 +1,626 @@
+<!doctype html><html lang="ta"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aptitude &amp; Reasoning Notes – Part B (Topics 8–14 + formula sheet)</title><style>
+:root{--bg:#fdfcf8;--fg:#1d1d1b;--muted:#5d5b55;--line:#d9d5ca;--head:#f1ede2;--accent:#8a3b12}
+@media (prefers-color-scheme:dark){:root{--bg:#18181a;--fg:#e9e6df;--muted:#a19d94;--line:#3a3934;--head:#25241f;--accent:#e39b6d}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 "Noto Sans Tamil","Latha","Nirmala UI",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:16px}
+h1{font-size:1.6rem;line-height:1.25;margin:.5rem 0 1rem}
+h2{font-size:1.3rem;margin:2.5rem 0 .5rem;padding-top:.75rem;border-top:3px solid var(--accent);color:var(--accent)}
+h3{font-size:1.08rem;margin:1.5rem 0 .4rem}
+a{color:var(--accent)}
+ul,ol{padding-left:1.3rem}
+li{margin:.15rem 0}
+.tbl{overflow-x:auto;margin:.6rem 0}
+table{border-collapse:collapse;min-width:100%}
+th,td{border:1px solid var(--line);padding:.35rem .5rem;vertical-align:top;text-align:left}
+th{background:var(--head)}
+nav{border:1px solid var(--line);border-radius:8px;padding:.5rem 1rem;margin-bottom:1rem}
+nav ol{margin:.3rem 0}
+details{border:1px dashed var(--line);border-radius:6px;padding:.4rem .7rem;margin:.6rem 0}
+summary{cursor:pointer;color:var(--muted)}
+.top{font-size:.85rem;color:var(--muted)}
+</style><style id="pyq-css">.pyq{background:var(--star,#fbefd9);border-left:4px solid var(--accent,#8a3b12);border-radius:6px;padding:.5rem .8rem;margin:.6rem 0}.pyq ul{margin:.2rem 0}.pyq li{margin:.1rem 0}@media (prefers-color-scheme:dark){.pyq{background:#3a2a1c}}</style></head><body><main><h1>Aptitude &amp; Reasoning Notes – Part B (Topics 8–14 + formula sheet)</h1><nav id="contents"><b>Contents</b><ol><li><a href="#topic-8">Topic 8 · Volume – 3D (Days 23, 24, 27)</a></li><li><a href="#topic-9">Topic 9 · Time and Work (Days 29, 31, 33, 35)</a></li><li><a href="#topic-10">Topic 10 · Mixed arithmetic – average, ages, profit &amp; loss, speed (Days 30, 31, 34)</a></li><li><a href="#topic-11">Topic 11 · Number series (Days 36, 38, 40, 42)</a></li><li><a href="#topic-12">Topic 12 · Dice and puzzles (Days 37, 38, 41)</a></li><li><a href="#topic-13">Topic 13 · Visual reasoning (Days 43, 45, 47, 49)</a></li><li><a href="#topic-14">Topic 14 · Alphanumeric and logical reasoning – coding, blood relations, direction, seating, syllogism basics (Days 44, 45, 48)</a></li><li><a href="#sec-8">Formula sheet (Days 64–72)</a></li></ol></nav><p class="top"><a href="#contents">↑ contents</a></p><h2 id="topic-8">Topic 8 · Volume – 3D (Days 23, 24, 27)</h2>
+<p><b>Read:</b> Class 8 Maths Ch 2 §2.4 Three-dimensional shapes (faces, edges, vertices, nets), PDF p. 72–79; Class 9 Maths Ch 7 Mensuration §7.4–7.5 Surface area and volume of cuboid and cube, PDF p. 259–269; Class 10 Maths Ch 7 Mensuration §7.2 Surface area, §7.3 Volume, combined solids and conversion of solids, PDF p. 275–306.</p><div class="pyq"><b>★ Asked before (5)</b> – these points came in past papers; learn them first.<ul><li><b>2024 Q136</b> – Cone: l = √(r²+h²) = √(49+576) = 25 m; CSA = πrl = 22/7×7×25 = 550 m²; length = 550/4 = 137.5 m</li><li><b>2024 Q143</b> – Volume of cylinder = base area × height = 500 × 4 = 2000 m³</li><li><b>2016 Q197</b> – l = 3080/(10×11) = 28 cm</li><li><b>2019 Q192</b> – 6a² = 384 → a² = 64 → a = 8 m</li><li><b>2019 Q195</b> – V ∝ r²h → (4×1) : (1×2) = 2 : 1</li></ul></div><!--/pyq-->
+<p><b>In the exam:</b> usually 1–2 Q (cylinder/cone/sphere volume or CSA, litres in a tank, melting and recasting).</p>
+
+<h3>Concept</h3>
+<ul>
+<li><b>Volume (கனஅளவு)</b> = space occupied by a solid (cm³, m³). <b>Capacity</b> of a container = volume it holds (litres).</li>
+<li><b>Lateral / curved surface area (LSA/CSA)</b> = area of the side walls only; <b>total surface area (TSA)</b> = CSA + area of the ends (top and bottom).</li>
+<li><b>Euler's formula</b> for solids (Class 8 §2.4): F + V − E = 2 (cube: 6 + 8 − 12 = 2).</li>
+<li><b>Melting / recasting</b>: the volume stays the same; number of small solids = volume of big ÷ volume of one small.</li>
+<li><b>Frustum</b> = the part of a cone left when the top is cut off by a plane parallel to the base (bucket, glass tumbler).</li>
+</ul>
+
+<h3>Formulas</h3>
+<div class="tbl"><table>
+<tr><th>Solid</th><th>Volume</th><th>CSA / LSA</th><th>TSA</th></tr>
+<tr><td>Cuboid l × b × h</td><td>lbh</td><td>2h(l + b)</td><td>2(lb + bh + hl); diagonal √(l² + b² + h²)</td></tr>
+<tr><td>Cube, side a</td><td>a³</td><td>4a²</td><td>6a²; diagonal a√3</td></tr>
+<tr><td>Right circular cylinder</td><td>πr²h</td><td>2πrh</td><td>2πr(h + r)</td></tr>
+<tr><td>Hollow cylinder (R outer, r inner)</td><td>πh(R² − r²)</td><td>2πh(R + r)</td><td>2πh(R + r) + 2π(R² − r²)</td></tr>
+<tr><td>Right circular cone</td><td>⅓πr²h</td><td>πrl, slant l = √(r² + h²)</td><td>πr(l + r)</td></tr>
+<tr><td>Sphere</td><td>(4/3)πr³</td><td colspan="2">surface area 4πr²</td></tr>
+<tr><td>Hemisphere</td><td>(2/3)πr³</td><td>2πr²</td><td>3πr²</td></tr>
+<tr><td>Hollow sphere / shell</td><td>(4/3)π(R³ − r³)</td><td colspan="2">—</td></tr>
+<tr><td>Frustum (radii R, r, height h)</td><td>⅓πh(R² + Rr + r²)</td><td>π(R + r)l, l = √(h² + (R − r)²)</td><td>π(R + r)l + πR² + πr²</td></tr>
+</table></div>
+<ul>
+<li><b>Units</b>: 1 cm³ = 1 ml; <b>1 litre = 1000 cm³</b>; <b>1 m³ = 1000 litres</b> = 10,00,000 cm³; 1 kl = 1 m³.</li>
+<li><b>Same r and h</b>: volume of cone = ⅓ of cylinder (cylinder : cone = 3 : 1). Cone : hemisphere : cylinder with h = r → 1 : 2 : 3.</li>
+<li><b>Scale</b>: all lengths × k → surface area × k², volume × k³ (radius doubled → volume × 8).</li>
+<li>Mass = density × volume (Class 10 example).</li>
+</ul>
+
+<h3>Shortcut tricks (and when to use them)</h3>
+<ul>
+<li><b>Ratio questions</b> – write the formula as a ratio and cancel π and constants: V₁/V₂ = (r₁²h₁)/(r₂²h₂).</li>
+<li><b>Number of balls / coins / bricks</b> – divide volumes directly; for spheres from a sphere: (R/r)³ (radius 8 → balls of radius 1: 8³ = 512).</li>
+<li><b>% change in volume</b> of a cube: (1 + x/100)³ − 1; in surface area: (1 + x/100)² − 1 (edge +50% → SA +125%, V +237.5%).</li>
+<li><b>Pick r a multiple of 7</b> to make π = 22/7 cancel; check whether the options are in terms of π.</li>
+<li><b>Litres</b> – compute in m³ and × 1000, or in cm³ and ÷ 1000.</li>
+<li><b>Roller / road</b> – area covered in one revolution = CSA of the roller (2πrh).</li>
+</ul>
+
+<h3>Solved examples (TNPSC style)</h3>
+<p><b>1.</b> A fish tank measures 3.8 m × 2.5 m × 1.6 m. How many litres of water can it hold? (Class 9 Ex 7.11)<br>
+V = 15.2 m³ = 15.2 × 1000 = <b>15,200 litres</b>.</p>
+<p><b>2.</b> A cubical tank holds 64,000 litres of water. Find the length of its side. (Class 9 Ex 7.14)<br>
+64,000 L = 64 m³ → a = ∛64 = <b>4 m</b>.</p>
+<p><b>3.</b> A conical tent has radius 7 m and height 24 m. Find the canvas needed, and its length if the canvas is 4 m wide. (Class 10 Ex 7.5)<br>
+l = √(49 + 576) = 25 m; CSA = 22/7 × 7 × 25 = <b>550 m²</b>; length = 550 ÷ 4 = <b>137.5 m</b>.</p>
+<p><b>4.</b> A cylinder has radius 7 cm and height 10 cm. Find its volume, CSA and TSA.<br>
+V = 22/7 × 49 × 10 = <b>1540 cm³</b>; CSA = 2 × 22/7 × 7 × 10 = <b>440 cm²</b>; TSA = 2 × 22/7 × 7 × 17 = <b>748 cm²</b>.</p>
+<p><b>5.</b> How many lead balls of radius 1 cm can be made from a solid sphere of radius 8 cm?<br>
+(8/1)³ = <b>512</b>.</p>
+<p><b>6.</b> A hemispherical bowl has radius 21 cm. How many litres does it hold?<br>
+(2/3) × 22/7 × 21³ = 19,404 cm³ = <b>19.404 litres</b>.</p>
+<p><b>7.</b> A garden roller is 3 m long with diameter 2.8 m. What area does it level in 8 revolutions? (Class 10 Ex 7.3 type)<br>
+CSA = 2 × 22/7 × 1.4 × 3 = 26.4 m² → × 8 = <b>211.2 m²</b>.</p>
+<p><b>8.</b> Each edge of a cube is increased by 50%. Find the % increase in its surface area.<br>
+(1.5)² = 2.25 → <b>125% increase</b>.</p>
+
+<h3>Practice set (10 Q)</h3>
+<ol>
+<li>The TSA of a cube is 150 cm². Its volume is (a) 25 (b) 125 (c) 216 (d) 150 cm³</li>
+<li>TSA of a cuboid 12 cm × 8 cm × 6 cm is (a) 576 (b) 432 (c) 216 (d) 240 cm²</li>
+<li>The diagonal of a cube of side 5 cm is (a) 5√2 (b) 5√3 (c) 10 (d) 15 cm</li>
+<li>CSA of a cylinder of radius 14 cm and height 20 cm is (a) 1760 (b) 880 (c) 3520 (d) 1232 cm²</li>
+<li>Surface area of a sphere of radius 21 cm is (a) 1386 (b) 2772 (c) 5544 (d) 38808 cm²</li>
+<li>CSA of a cone with radius 3 cm and height 4 cm is (a) 12π (b) 15π (c) 24π (d) 20π cm²</li>
+<li>If the radius of a sphere is doubled, its volume becomes (a) 2 (b) 4 (c) 6 (d) 8 times</li>
+<li>Radii of two cylinders are in the ratio 2 : 3 and heights 5 : 3. Ratio of volumes is (a) 10 : 9 (b) 20 : 27 (c) 4 : 9 (d) 27 : 20</li>
+<li>A tank 2 m × 1.5 m × 1 m holds (a) 300 (b) 3000 (c) 30000 (d) 30 litres</li>
+<li>How many cubes of side 2 cm can be cut from a cube of side 6 cm? (a) 3 (b) 9 (c) 27 (d) 36</li>
+</ol>
+<details><summary>Show answers</summary><p><b>Answers:</b> 1-b (6a² = 150 → a = 5 → 125); 2-b (2(96 + 48 + 72)); 3-b (a√3); 4-a (2 × 22/7 × 14 × 20); 5-c (4 × 22/7 × 441); 6-b (l = 5 → π × 3 × 5); 7-d (2³); 8-b (4 × 5 : 9 × 3); 9-b (3 m³ × 1000); 10-c ((6/2)³).</p></details>
+
+<p class="top"><a href="#contents">↑ contents</a></p><h2 id="topic-9">Topic 9 · Time and Work (Days 29, 31, 33, 35)</h2>
+<p><b>Read:</b> Class 8 Maths Ch 4 Life Mathematics §4.5 Compound Variation (proportion, multiplicative-factor and formula methods), PDF p. 146–153; §4.6 Time and Work, §4.6.1 Sharing of money, Exercise 4.4–4.5, PDF p. 153–157; Class 7 Term 1 Ch 4 §4.3 Inverse Proportion, PDF p. 82–85.</p><div class="pyq"><b>★ Asked before (9)</b> – these points came in past papers; learn them first.<ul><li><b>2025 Q140</b> – x(1/20 + 1/40) + 8/20 = 1 → 3x/40 = 3/5 → x = 8 days</li><li><b>2022 Q129</b> – Inverse proportion: 10 × 21 = 14 × d → d = 15 days</li><li><b>2022 Q181</b> – Days = 1 ÷ (2/7) = 7/2 = 3½ days</li><li><b>2024 Q194</b> – Per day: 3m + 4w = 540, 11m + 13w = 1880 → m = 100, w = 60; 7m + 9w = 1240/day → 12400/1240 = 10 days</li><li><b>2016 Q140</b> – 1/4 + 1/12 = 1/3 → 3 days</li><li><b>2016 Q190</b> – Share ∝ efficiency 1/20 : 1/25 = 5 : 4 → A = 3600 × 5/9 = 2000</li><li><b>2016 Q192</b> – 110 × (30×6)/(22×10) = 90 m</li><li><b>2019 Q143</b> – Together = 20×30/(20+30) = 12 days</li><li><b>2019 Q144</b> – M1H1/W1 = M2H2/W2 → 14×5/70 = M2×10/100 → M2 = 10</li></ul></div><!--/pyq-->
+<p><b>In the exam:</b> 1–3 Q a year (together/alone, men–days–hours, wages sharing, pipes; 2024 asked a men + women wages problem).</p>
+
+<h3>Concept</h3>
+<ul>
+<li>The whole work is taken as <b>1 unit</b> (a wall, a road, filling a tank, eating food). Work is assumed uniform.</li>
+<li>If a person finishes the work in <b>n days</b>, his <b>one day's work = 1/n</b>; if he does 1/n per day, he needs n days.</li>
+<li><b>More workers → fewer days</b> (inverse); <b>more work → more days</b> (direct). A chain of two or more such variations = <b>compound variation</b> (direct–direct, direct–inverse, inverse–direct, inverse–inverse).</li>
+<li>Not every problem is proportional: frying one vadai takes 5 min does not mean 20 vadais take 100 min (textbook note).</li>
+<li><b>Wages</b> are shared in the ratio of <b>work done</b>, i.e. in the ratio of one-day works 1/x : 1/y : 1/z (when they work the same number of days).</li>
+</ul>
+
+<h3>Formulas</h3>
+<div class="tbl"><table>
+<tr><th>Situation</th><th>Formula</th></tr>
+<tr><td>A in a days, B in b days, together</td><td><b>ab/(a + b)</b> days</td></tr>
+<tr><td>A, B, C in a, b, c days, together</td><td>abc/(ab + bc + ca) days</td></tr>
+<tr><td>A + B together in x days, A alone in y days</td><td>B alone = xy/(y − x) days</td></tr>
+<tr><td>A + B in x, B + C in y, C + A in z days</td><td>2(A + B + C) = 1/x + 1/y + 1/z per day; then subtract</td></tr>
+<tr><td>Compound variation (formula method)</td><td><b>P₁D₁H₁/W₁ = P₂D₂H₂/W₂</b> (persons, days, hours/day, work)</td></tr>
+<tr><td>Multiplicative factor method</td><td>x = known value × (factor for each quantity): direct → take the reciprocal ratio, inverse → take the ratio unchanged (textbook rule)</td></tr>
+<tr><td>A is k times as good a worker as B</td><td>A takes 1/k of B's time (textbook note: if A is a/b times as good as B, A needs only b/a of B's time)</td></tr>
+<tr><td>B is x% more efficient than A (A takes T days)</td><td>B takes T × 100/(100 + x) days</td></tr>
+<tr><td>Wages</td><td>Ratio of shares = 1/x : 1/y : 1/z (times x, y, z) = ratio of work done</td></tr>
+<tr><td>Pipes</td><td>Filling pipe +1/a per hour, emptying pipe/leak −1/b per hour; net = sum</td></tr>
+<tr><td>Pipe fills in a h; with a leak in b h</td><td>Leak alone empties the full tank in ab/(b − a) h</td></tr>
+<tr><td>m persons do work in n days</td><td>4m persons in n/4 days; m/4 persons in 4n days</td></tr>
+</table></div>
+
+<h3>Shortcut tricks (and when to use them)</h3>
+<ul>
+<li><b>LCM method</b> – take total work = LCM of the days; each person's per-day units = LCM ÷ his days. A 20, B 30 → total 60 units; A 3/day, B 2/day → together 5/day → 12 days. Avoids fractions.</li>
+<li><b>"k times as fast and takes d days less"</b> – times are in ratio 1 : k, difference = (k − 1) parts = d (Ex 4.25: 3 times, 24 days less → 1 part = 12 → A 12, B 36).</li>
+<li><b>Men + women / men + boys</b> – convert to one-day earnings or work, solve two equations, or find "1 man = how many women".</li>
+<li><b>Left in between</b> – work done by the one who stays for the extra days first; remaining work ÷ joint rate = days together.</li>
+<li><b>Check the answer</b> – together time is always less than the faster person's time.</li>
+</ul>
+
+<h3>Solved examples (TNPSC style)</h3>
+<p><b>1.</b> (TNPSC 2024) 3 men and 4 women earn ₹3,780 in 7 days. 11 men and 13 women earn ₹15,040 in 8 days. In what time will 7 men and 9 women earn ₹12,400? (a) 9 (b) 12 (c) 10 (d) 11 days<br>
+Per day: 3m + 4w = 540; 11m + 13w = 1880. ×11 and ×3: 33m + 44w = 5940, 33m + 39w = 5640 → 5w = 300 → w = 60, m = 100. 7m + 9w = 700 + 540 = 1240/day → 12400 ÷ 1240 = <b>10 days → (c)</b>.</p>
+<p><b>2.</b> A and B together do a work in 16 days; A alone in 48 days. B alone? (Class 8 Ex 4.23)<br>
+1/16 − 1/48 = 2/48 = 1/24 → <b>24 days</b> (or xy/(y − x) = 16 × 48/32 = 24).</p>
+<p><b>3.</b> P and Q can do a work in 20 and 30 days. They start together; Q leaves after some days and P finishes the rest in 5 days. After how many days did Q leave? (Ex 4.24)<br>
+P's 5 days = 1/4; remaining 3/4 at (1/20 + 1/30) = 1/12 per day → 3/4 × 12 = <b>9 days</b>.</p>
+<p><b>4.</b> A works 3 times as fast as B and takes 24 days less. Together? (Ex 4.25)<br>
+A 12, B 36 days → 12 × 36/48 = <b>9 days</b>.</p>
+<p><b>5.</b> X, Y, Z can do a job in 4, 6, 10 days. They work together and get ₹31,000. Shares? (Ex 4.26)<br>
+1/4 : 1/6 : 1/10 = 15 : 10 : 6 (sum 31) → <b>₹15,000, ₹10,000, ₹6,000</b>.</p>
+<p><b>6.</b> 48 men working 7 hours a day do a work in 24 days. In how many days will 28 men working 8 hours a day do it? (Ex 4.22, inverse–inverse)<br>
+48 × 7 × 24 = 28 × 8 × D → D = <b>36 days</b>.</p>
+<p><b>7.</b> A mat 180 m long is made by 15 women in 12 days. How long will 32 women take to make a 512 m mat? (Ex 4.20, direct–inverse)<br>
+15 × 12/180 = 32 × D/512 → D = 12 × (512/180) × (15/32) = <b>16 days</b>.</p>
+<p><b>8.</b> Pipes A and B fill a tank in 10 h and 15 h; pipe C empties it in 12 h. If all are opened together, when will the tank be full?<br>
+1/10 + 1/15 − 1/12 = (6 + 4 − 5)/60 = 1/12 → <b>12 hours</b>.</p>
+
+<h3>Practice set (10 Q)</h3>
+<ol>
+<li>A can finish a job in 3 days and B in 6 days. Together they take (a) 1 (b) 2 (c) 3 (d) 4.5 days</li>
+<li>If 5 persons can do 5 jobs in 5 days, 50 persons can do 50 jobs in (a) 1 (b) 5 (c) 10 (d) 50 days</li>
+<li>A can do a work in 24 days; A and B together in 6 days. B alone takes (a) 8 (b) 12 (c) 18 (d) 30 days</li>
+<li>A alone does a work in 35 days. B is 40% more efficient than A. B takes (a) 21 (b) 25 (c) 28 (d) 49 days</li>
+<li>A can do a work in 10 days and B in 15 days. For a ₹2,00,000 contract done together, A gets (a) ₹80,000 (b) ₹1,00,000 (c) ₹1,20,000 (d) ₹1,33,333</li>
+<li>210 men working 12 hours a day finish a job in 18 days. Men needed to finish it in 20 days working 14 hours a day? (a) 150 (b) 162 (c) 180 (d) 196</li>
+<li>A can do a work in 12 hours; B and C in 3 hours; A and C in 6 hours. B alone takes (a) 3 (b) 4 (c) 6 (d) 12 hours</li>
+<li>A and B do a work in 12 days, B and C in 15 days, A and C in 20 days. A alone takes (a) 20 (b) 24 (c) 30 (d) 60 days</li>
+<li>Amutha weaves a saree in 18 days; Anjali is twice as good a weaver. Together they take (a) 6 (b) 9 (c) 12 (d) 27 days</li>
+<li>A pipe fills a tank in 6 hours; because of a leak it takes 8 hours. The leak alone empties the full tank in (a) 12 (b) 14 (c) 24 (d) 48 hours</li>
+</ol>
+<details><summary>Show answers</summary><p><b>Answers:</b> 1-b (3 × 6/9); 2-b (work and men both ×10 → same days); 3-a (1/6 − 1/24 = 1/8); 4-b (35 × 100/140); 5-c (shares 1/10 : 1/15 = 3 : 2 → 3/5 of 2,00,000); 6-b (210 × 12 × 18/(20 × 14)); 7-b (C = 1/6 − 1/12 = 1/12; B = 1/3 − 1/12 = 1/4); 8-c (A + B + C = ½(1/12 + 1/15 + 1/20) = 1/10; A = 1/10 − 1/15 = 1/30); 9-a (Anjali 9 days; 18 × 9/27 = 6); 10-c (6 × 8/(8 − 6)).</p></details>
+
+<p class="top"><a href="#contents">↑ contents</a></p><h2 id="topic-10">Topic 10 · Mixed arithmetic – average, ages, profit &amp; loss, speed (Days 30, 31, 34)</h2>
+<p><b>Read:</b> Class 7 Maths Term 3, Ch 5 Statistics §5.5 Arithmetic Mean, PDF p. 101–104, and Ch 2 (profit/loss %), PDF p. 42–43; Class 8 Maths Ch 4 §4.3 Profit, Loss, Discount, Overhead Expenses and GST, PDF p. 132–138; Class 8 Ch 3 §3.8 Linear equations in one variable (age/number word problems), PDF p. 103–112; Class 7 Term 1 Ch 4 (distance–time, speed–time), PDF p. 80–84.</p><div class="pyq"><b>★ Asked before (11)</b> – these points came in past papers; learn them first.<ul><li><b>2025 Q195</b> – (25 × 78.4 + 96 − 69)/25 = 1987/25 = 79.48</li><li><b>2024 Q139</b> – 20% of P = 25 → P = 25 × 100/20 = Rs 125</li><li><b>2016 Q139</b> – Total = average × number = 800</li><li><b>2016 Q199</b> – C.P. = 2000 (repairs added); loss 200 → 10%</li><li><b>2018 Q166</b> – Profit % and loss % are always on cost price</li><li><b>2018 Q167</b> – d/3 + d/2 = 5 → d = 6 km</li><li><b>2018 Q172</b> – F = 2A; 2A − 12 = 3(A − 12) → A = 24, F = 48</li><li><b>2019 Q137</b> – Correct mean = (152×12 − 148 + 172)/12 = 1848/12 = 154</li><li><b>2019 Q140</b> – 6x + 4 = 4(x + 4) → x = 6; father 36</li><li><b>2019 Q146</b> – Runs in 31st = 73×31 − 72×30 = 2263 − 2160 = 103</li><li><b>2019 Q188</b> – Sum 244.3 ÷ 7 = 34.9 °C</li></ul></div><!--/pyq-->
+<p><b>In the exam:</b> 1–2 Q a year from these (2025: corrected mean; profit/discount and trains are common in Group 4).</p>
+
+<h3>Concept</h3>
+<ul>
+<li><b>Average / arithmetic mean (சராசரி)</b> = sum of observations ÷ number of observations.</li>
+<li><b>Ages</b>: write present ages as x (or ratio parts kx), then form one equation from the "years ago / years hence" condition. The difference of two ages never changes.</li>
+<li><b>Cost price (C.P., அடக்க விலை)</b> = price at which an article is bought; <b>selling price (S.P., விற்பனை விலை)</b> = price at which it is sold. Profit/gain = S.P − C.P; loss = C.P − S.P. <b>Profit or loss % is always on C.P.</b></li>
+<li><b>Marked price (M.P.)</b> = price on the tag; <b>discount (தள்ளுபடி)</b> is always on M.P.; S.P = M.P − discount. <b>Overhead expenses</b> (repairs, transport, labour) are added to C.P.</li>
+<li><b>GST</b> (Goods and Services Tax): the only common tax on almost all goods and services; types CGST, SGST, IGST (UTGST for union territories); shared equally by Centre and State; slabs 5%, 12%, 18%, 28%; egg, honey, milk, salt exempted; petrol, diesel outside GST (Class 8 p. 133).</li>
+<li><b>Speed</b> = distance ÷ time; for a fixed distance, speed and time are in inverse proportion.</li>
+</ul>
+
+<h3>Formulas</h3>
+<div class="tbl"><table>
+<tr><th>Topic</th><th>Formula</th></tr>
+<tr><td>Average</td><td>Sum = average × number. Average of first n natural numbers = (n + 1)/2; of first n even numbers = n + 1; of first n odd numbers = n</td></tr>
+<tr><td>Misread value</td><td>Correct mean = old mean + (correct − wrong)/n</td></tr>
+<tr><td>Person added / replaced</td><td>New person = old value + n × (increase in average) (replacement); added person = new average + n × (increase)</td></tr>
+<tr><td>Combined average</td><td>(n₁a₁ + n₂a₂)/(n₁ + n₂)</td></tr>
+<tr><td>Profit %, loss %</td><td>Profit/C.P × 100; Loss/C.P × 100</td></tr>
+<tr><td>S.P from C.P</td><td>S.P = (100 + gain%)/100 × C.P; S.P = (100 − loss%)/100 × C.P</td></tr>
+<tr><td>C.P from S.P</td><td>C.P = 100/(100 + gain%) × S.P; C.P = 100/(100 − loss%) × S.P</td></tr>
+<tr><td>C.P of x articles = S.P of y articles</td><td>Profit % = (x − y)/y × 100 (negative → loss) (Class 8 note)</td></tr>
+<tr><td>Discount %</td><td>Discount/M.P × 100</td></tr>
+<tr><td>Successive discounts a%, b%</td><td>S.P = M.P(1 − a/100)(1 − b/100); single equivalent = a + b − ab/100</td></tr>
+<tr><td>Mark-up m% then discount d%</td><td>Net % = m − d − md/100 (15% up, 15% off → 2.25% loss)</td></tr>
+<tr><td>Two items sold at the same S.P, one at x% gain, other at x% loss</td><td>Always a loss of x²/100 % (extra)</td></tr>
+<tr><td>Price including GST</td><td>Bill = M.P × (100 + GST%)/100; CGST = SGST = GST/2</td></tr>
+<tr><td>Speed units</td><td>km/h × 5/18 = m/s; m/s × 18/5 = km/h (36 km/h = 10 m/s; 54 = 15; 72 = 20; 90 = 25)</td></tr>
+<tr><td>Average speed (equal distances at x and y)</td><td>2xy/(x + y) (not (x + y)/2)</td></tr>
+<tr><td>Train crossing a pole/man</td><td>time = length of train ÷ speed</td></tr>
+<tr><td>Train crossing a platform/bridge</td><td>time = (train + platform length) ÷ speed</td></tr>
+<tr><td>Two trains</td><td>opposite directions: (L₁ + L₂)/(s₁ + s₂); same direction: (L₁ + L₂)/(s₁ − s₂)</td></tr>
+<tr><td>Boats (extra)</td><td>downstream = u + v, upstream = u − v; u = (down + up)/2, stream v = (down − up)/2</td></tr>
+</table></div>
+
+<h3>Shortcut tricks (and when to use them)</h3>
+<ul>
+<li><b>Deviation method for averages</b> – assume a mean, add the deviations: 47, 52, 49, 55, 47 → assume 50: −3 + 2 − 1 + 5 − 3 = 0 → mean 50.</li>
+<li><b>Ages by options</b> – put each option into the conditions; usually faster than equations.</li>
+<li><b>Ratio of C.P : S.P = a : b</b> → profit % = (b − a)/a × 100 (5 : 7 → 40%).</li>
+<li><b>Sell at loss x%, want gain y%</b> → new S.P = old S.P × (100 + y)/(100 − x) (4275 × 105/95 = 4725).</li>
+<li><b>Successive % formula</b> for discounts and mark-ups (a + b + ab/100 with signs).</li>
+<li><b>Convert speed first</b> – when lengths are in metres, change km/h to m/s with × 5/18.</li>
+</ul>
+
+<h3>Solved examples (TNPSC style)</h3>
+<p><b>1.</b> (TNPSC 2025) The average mark of 25 students was 78.4. Later a score of 96 was found misread as 69. Correct mean? (a) 77.32 (b) 79.48 (c) 78.42 (d) 78.24<br>
+78.4 + (96 − 69)/25 = 78.4 + 1.08 = <b>79.48 → (b)</b>.</p>
+<p><b>2.</b> The ages of A and B are in the ratio 4 : 5. After 6 years the ratio will be 5 : 6. Find their present ages.<br>
+(4k + 6)/(5k + 6) = 5/6 → 24k + 36 = 25k + 30 → k = 6 → <b>24 and 30 years</b>.</p>
+<p><b>3.</b> By selling a bicycle for ₹4,275 a shopkeeper loses 5%. At what price should he sell it to gain 5%? (Class 8 Ex 4.9)<br>
+C.P = 4275 × 100/95 = 4,500 → S.P = 4500 × 105/100 = <b>₹4,725</b>.</p>
+<p><b>4.</b> The C.P of 16 boxes equals the S.P of 20 boxes. Gain or loss %? (Ex 4.8)<br>
+(16 − 20)/20 × 100 = −20 → <b>20% loss</b>.</p>
+<p><b>5.</b> Find the single discount equal to successive discounts of 25% and 20%. (Ex 4.11)<br>
+25 + 20 − (25 × 20)/100 = <b>40%</b>.</p>
+<p><b>6.</b> Vaidegi sold two sarees for ₹2,200 each, gaining 10% on one and losing 12% on the other. Overall? (Class 8 Ex 4.5 Q5)<br>
+C.P₁ = 2200 × 100/110 = 2000; C.P₂ = 2200 × 100/88 = 2500; total C.P 4500, S.P 4400 → loss 100 = <b>2 2/9 % loss</b>.</p>
+<p><b>7.</b> A train 150 m long runs at 54 km/h. How long does it take to cross a pole?<br>
+54 × 5/18 = 15 m/s → 150 ÷ 15 = <b>10 seconds</b>.</p>
+<p><b>8.</b> A man goes to a place at 40 km/h and returns at 60 km/h. Average speed?<br>
+2 × 40 × 60/100 = <b>48 km/h</b>.</p>
+
+<h3>Practice set (10 Q)</h3>
+<ol>
+<li>A shopkeeper marks an article 15% above C.P and gives a 15% discount. He (a) gains 2.25% (b) loses 2.25% (c) neither gains nor loses (d) loses 1.5%</li>
+<li>The average of the first 10 natural numbers is (a) 5 (b) 5.5 (c) 6 (d) 10</li>
+<li>The average of 5 numbers is 20. If one number is removed, the average becomes 18. The removed number is (a) 22 (b) 26 (c) 28 (d) 30</li>
+<li>A father is 3 times as old as his son. After 10 years he will be twice as old. The father's present age is (a) 30 (b) 36 (c) 40 (d) 45</li>
+<li>If C.P : S.P = 5 : 7, the profit % is (a) 28.6% (b) 40% (c) 35% (d) 20%</li>
+<li>A mobile phone sold for ₹8,400 at 20% gain. Its C.P is (a) ₹6,720 (b) ₹7,000 (c) ₹7,200 (d) ₹6,800</li>
+<li>If the S.P of 10 rulers equals the C.P of 15 rulers, the profit % is (a) 33⅓% (b) 50% (c) 25% (d) 20%</li>
+<li>Articles bought at 2 for ₹15 are sold at 3 for ₹25. Gain % is (a) 10% (b) 11 1/9% (c) 12½% (d) 15%</li>
+<li>A water heater is sold for ₹10,502 including 18% GST. Its marked price is (a) ₹8,612 (b) ₹8,900 (c) ₹9,000 (d) ₹8,500</li>
+<li>72 km/h in m/s is (a) 15 (b) 18 (c) 20 (d) 25</li>
+</ol>
+<details><summary>Show answers</summary><p><b>Answers:</b> 1-b (15 − 15 − 225/100 = −2.25); 2-b ((10 + 1)/2); 3-c (100 − 4 × 18 = 28); 4-a (3x + 10 = 2(x + 10) → x = 10 → 30); 5-b (2/5 × 100); 6-b (8400 × 100/120); 7-b (C.P of 10 = x, S.P of 10 = 1.5x → 50%); 8-b (C.P ₹7.50, S.P ₹8.33 → 0.833/7.5 = 1/9); 9-b (10502 × 100/118); 10-c (72 × 5/18).</p></details>
+
+<p class="top"><a href="#contents">↑ contents</a></p><h2 id="topic-11">Topic 11 · Number series (Days 36, 38, 40, 42)</h2>
+<p><b>Read:</b> Class 10 Maths Ch 2 §2.6 Sequences, §2.7 Arithmetic Progression, §2.9–2.10 Geometric Progression, §2.11 Special series, PDF p. 58–87; Class 8 Maths Ch 7 §7.5 Fibonacci Numbers, PDF p. 253–256; Class 7 Maths Term 2, Ch 5 Information Processing (tables and patterns, Pascal's triangle), PDF p. 93–102; Class 6 Term 1, Ch 2 §2.2 Patterns, PDF p. 37–38.</p><div class="pyq"><b>★ Asked before (13)</b> – these points came in past papers; learn them first.<ul><li><b>2022 Q130</b> – In an AP, a + b = first + last = 18 + (−3) = 15 (d = −7: 18, 11, 4, −3)</li><li><b>2022 Q131</b> – GP with r = 1/2: a(1 + 1/2 + … + 1/32) = a × 63/32 = 7875 → a = ₹4,000</li><li><b>2022 Q174</b> – Squares of primes 7², 11², 13², 17², 19² → 289</li><li><b>2024 Q137</b> – ×2, ×3, ×4, ×5, ×6 (factorials) → 120 × 6 = 720</li><li><b>2024 Q191</b> – Differences 1, 2, 4, 8, 16, 32 (each term ×2 − 1) → x = 17, y = 65 → x + y = 82</li><li><b>2016 Q147</b> – Pairs n, n³: 1,1; 2,8; 3,27; 4,64</li><li><b>2018 Q118</b> – GP a = 0.12, r = 0.1 → t7 = 0.12 × 0.1^6 = 1.2 × 10^-7</li><li><b>2018 Q168</b> – x = −4 → −44, −66, −99, ratio 3/2 → G.P. (multiplying a GP by 11 keeps it a GP)</li><li><b>2018 Q170</b> – 2²+4²+…+20² = 4(1²+…+10²) = 4×385 = 1540</li><li><b>2018 Q174</b> – S∞ = a/(1 − r) for |r| &lt; 1</li><li><b>2019 Q197</b> – r = t3/t2 = (1/5)/(3/5) = 1/3</li><li><b>2019 Q198</b> – a2 = −1/4, a3 = (−1/4)/5 = −1/20</li><li><b>2019 Q200</b> – r = a^m / a^(m−n) = a^n</li></ul></div><!--/pyq-->
+<p><b>In the exam:</b> a number (or alphanumeric) series comes <b>every year</b> (2024: 2, 3, 5, 9, x, 33, y; 2025: 2X2, 7T4, 14P12, 23L48, ?).</p>
+
+<h3>Concept</h3>
+<ul>
+<li>A <b>sequence (தொடர்வரிசை)</b> is a list of numbers in a definite order following a rule; find the rule and continue it.</li>
+<li><b>Arithmetic progression (AP, கூட்டுத் தொடர்வரிசை)</b>: constant difference d. <b>Geometric progression (GP, பெருக்குத் தொடர்வரிசை)</b>: constant ratio r.</li>
+<li><b>Fibonacci sequence</b>: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610 … each term = sum of the previous two: F(n) = F(n − 1) + F(n − 2). 11th Fibonacci number = 89.</li>
+<li>Class 8 facts: <b>every 3rd</b> Fibonacci number is a multiple of 2 (even), <b>every 4th</b> a multiple of 3, <b>every 5th</b> a multiple of 5, <b>every 6th</b> a multiple of 8; in general every k-th is a multiple of F(k).</li>
+<li><b>Pascal's triangle</b> (Class 7): each number = sum of the two above it; row sums are 1, 2, 4, 8, 16 … (powers of 2).</li>
+</ul>
+
+<h3>Formulas</h3>
+<div class="tbl"><table>
+<tr><th>Series</th><th>Formula</th></tr>
+<tr><td>AP: a, a + d, a + 2d …</td><td>t<sub>n</sub> = a + (n − 1)d; number of terms n = (l − a)/d + 1; S<sub>n</sub> = n/2 [2a + (n − 1)d] = n/2 (a + l)</td></tr>
+<tr><td>GP: a, ar, ar² …</td><td>t<sub>n</sub> = ar<sup>n−1</sup>; S<sub>n</sub> = a(r<sup>n</sup> − 1)/(r − 1), r ≠ 1; infinite sum a/(1 − r) when −1 &lt; r &lt; 1</td></tr>
+<tr><td>Special sums</td><td>Σn = n(n + 1)/2; Σn² = n(n + 1)(2n + 1)/6; Σn³ = [n(n + 1)/2]²; sum of first n odd numbers = n²</td></tr>
+<tr><td>Triangular numbers</td><td>1, 3, 6, 10, 15, 21 … = n(n + 1)/2</td></tr>
+<tr><td>Pronic numbers</td><td>2, 6, 12, 20, 30, 42 … = n(n + 1)</td></tr>
+<tr><td>Primes up to 50</td><td>2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47 (25 primes below 100)</td></tr>
+<tr><td>Letter values</td><td>A–Z = 1–26; reverse value = 27 − position; <b>EJOTY</b> = 5, 10, 15, 20, 25 (memory aid)</td></tr>
+</table></div>
+
+<h3>Method – checklist (try in this order)</h3>
+<ol>
+<li><b>Differences</b> (+ constant → AP; differences themselves form a pattern → 2nd/3rd difference).</li>
+<li><b>Ratios</b> (× constant → GP; × 1, × 2, × 3 … ; × 2 + 1; × 3 − 1).</li>
+<li><b>Squares / cubes</b> and n² ± 1, n³ ± 1, n(n + 1).</li>
+<li><b>Primes</b> or prime ± something.</li>
+<li><b>Two series alternating</b> (odd positions and even positions separately) – suspect this when numbers go up and down.</li>
+<li><b>Sum of previous terms</b> (Fibonacci type).</li>
+<li><b>Alphanumeric</b>: split into number part and letter part; treat each as its own series.</li>
+</ol>
+
+<h3>Shortcut tricks (and when to use them)</h3>
+<ul>
+<li><b>Growth speed tells the type</b>: slow and steady → AP or differences; fast (doubling) → × pattern or powers.</li>
+<li><b>Differences that double</b> (1, 2, 4, 8 …) → the series is "× 2 − something" or 2<sup>n</sup> + c.</li>
+<li><b>Find the wrong term</b> – fix the rule from the majority of terms; check each term; the misfit is the answer.</li>
+<li><b>Missing two terms x, y</b> – find x from the left side and confirm with the term after it before finding y.</li>
+<li><b>Letter series</b> – write the positions under the letters; for backward moves use reverse values.</li>
+</ul>
+
+<h3>Solved examples (TNPSC style)</h3>
+<p><b>1.</b> (TNPSC 2024) In the series 2, 3, 5, 9, x, 33, y, … what is x + y? (a) 65 (b) 72 (c) 75 (d) 82<br>
+Differences 1, 2, 4, 8, 16, 32 → x = 17, check 17 + 16 = 33 ✓, y = 33 + 32 = 65 → x + y = <b>82 → (d)</b>.</p>
+<p><b>2.</b> (TNPSC 2025) The missing term: 2X2, 7T4, 14P12, 23L48, ___ (a) 34H240 (b) 34H144 (c) 30H100 (d) 30H120<br>
+First numbers 2, 7, 14, 23 (+5, +7, +9, +11) → 34; letters X, T, P, L (−4 each) → H; last numbers 2, 4, 12, 48 (×2, ×3, ×4, ×5) → 240 → <b>34H240 → (a)</b>.</p>
+<p><b>3.</b> 2, 6, 12, 20, 30, ?<br>
+n(n + 1): 1·2, 2·3, 3·4, 4·5, 5·6 → 6·7 = <b>42</b>.</p>
+<p><b>4.</b> 3, 7, 15, 31, 63, ?<br>
+× 2 + 1 → 63 × 2 + 1 = <b>127</b>.</p>
+<p><b>5.</b> Find the wrong term: 2, 5, 10, 17, 26, 38, 50<br>
+Rule n² + 1: 2, 5, 10, 17, 26, 37, 50 → <b>38</b> is wrong (should be 37).</p>
+<p><b>6.</b> How many terms are there in the AP 7, 11, 15, …, 139? Also find the 10th term of 3, 8, 13, …<br>
+n = (139 − 7)/4 + 1 = <b>34</b>; t₁₀ = 3 + 9 × 5 = <b>48</b>.</p>
+<p><b>7.</b> 2, 20, 4, 18, 6, 16, ?<br>
+Two series: odd places 2, 4, 6 → <b>8</b> next; (even places 20, 18, 16).</p>
+<p><b>8.</b> 4, 6, 9, 13.5, ?<br>
+× 1.5 each time → 13.5 × 1.5 = <b>20.25</b>.</p>
+
+<h3>Practice set (10 Q)</h3>
+<ol>
+<li>5, 11, 23, 47, ? (a) 94 (b) 95 (c) 96 (d) 71</li>
+<li>1, 8, 27, 64, ? (a) 100 (b) 125 (c) 81 (d) 216</li>
+<li>2, 3, 5, 7, 11, 13, ? (a) 15 (b) 16 (c) 17 (d) 19</li>
+<li>120, 99, 80, 63, 48, ? (a) 35 (b) 36 (c) 33 (d) 37</li>
+<li>A, C, F, J, O, ? (a) T (b) U (c) V (d) S</li>
+<li>6, 12, 36, 144, ? (a) 288 (b) 576 (c) 720 (d) 864</li>
+<li>Find the wrong term: 3, 9, 27, 81, 242, 729 (a) 27 (b) 81 (c) 242 (d) 729</li>
+<li>The 15th term of the AP 3, 7, 11, … is (a) 55 (b) 59 (c) 63 (d) 60</li>
+<li>1, 3, 6, 10, 15, ? (a) 20 (b) 21 (c) 22 (d) 25</li>
+<li>2, 5, 11, 20, 32, ? (a) 44 (b) 45 (c) 47 (d) 50</li>
+</ol>
+<details><summary>Show answers</summary><p><b>Answers:</b> 1-b (× 2 + 1); 2-b (cubes, 5³); 3-c (primes); 4-a (n² − 1 from 11 down: 6² − 1 = 35; differences −21, −19, −17, −15, −13); 5-b (+2, +3, +4, +5, +6 → 15 + 6 = 21 = U); 6-c (× 2, × 3, × 4, × 5); 7-c (× 3: 81 × 3 = 243); 8-b (3 + 14 × 4); 9-b (triangular numbers, +6); 10-c (differences 3, 6, 9, 12, 15).</p></details>
+
+<p class="top"><a href="#contents">↑ contents</a></p><h2 id="topic-12">Topic 12 · Dice and puzzles (Days 37, 38, 41)</h2>
+<p><b>Read:</b> Class 10 Maths Ch 8 Statistics and Probability §8.4 Probability (sample space of dice and coins), §8.5–8.6 Algebra of events, Addition theorem, PDF p. 322–336; Class 9 Maths Ch 9 Probability, PDF p. 297–310; Class 8 Maths Ch 2 §2.4 3-D shapes, nets, Euler's formula, PDF p. 72–79; Class 7 Term 1 Ch 6 Information Processing (calendar puzzle, tetromino, route map), PDF p. 113–124; Class 6 Term 1 Ch 6 Information Processing, PDF p. 112–120. Dice-position rules, clock and calendar rules below are standard reasoning facts marked (extra).</p><div class="pyq"><b>★ Asked before (6)</b> – these points came in past papers; learn them first.<ul><li><b>2025 Q151</b> – Faces adjacent to 2: 3, 5, 1, 6 → opposite 2 = 4</li><li><b>2025 Q200</b> – Product 4: (1,4),(4,1),(2,2); difference 5: (1,6),(6,1) → 5/36</li><li><b>2022 Q124</b> – Doublets 6 + sum-4 non-doublets (1,3),(3,1) = 8 of 36 → 2/9</li><li><b>2022 Q125</b> – 75 days = 10 weeks + 5 days; Monday − 5 days = Wednesday</li><li><b>2022 Q173</b> – Two common faces (2, 5) in both views → the remaining faces 3 and 4 are opposite</li><li><b>2019 Q148</b> – P(not six) = 40/50 = 4/5</li></ul></div><!--/pyq-->
+<p><b>In the exam:</b> 0–1 Q a year (2025: probability with two dice); dice-face, painted-cube, clock and calendar puzzles appear in the reasoning block.</p>
+
+<h3>Concept</h3>
+<ul>
+<li><b>A die (பகடை)</b> is a cube: 6 faces, 8 vertices (corners), 12 edges. Euler: F + V − E = 2 (6 + 8 − 12 = 2).</li>
+<li>Each face has <b>4 adjacent faces</b> and <b>1 opposite face</b>. In any one view you see 3 faces that meet at a corner – they are all adjacent, never opposite.</li>
+<li>On a <b>standard die</b> opposite faces add up to 7: 1–6, 2–5, 3–4 (extra; use only when the question says "standard die").</li>
+<li><b>Probability (நிகழ்தகவு)</b> P(E) = number of favourable outcomes / total outcomes; 0 ≤ P(E) ≤ 1; P(sure event) = 1; P(impossible) = 0; P(E) + P(not E) = 1.</li>
+<li>One die: 6 outcomes; <b>two dice: 6 × 6 = 36</b>; one coin 2; two coins 4 {HH, HT, TH, TT}; n coins 2<sup>n</sup>.</li>
+</ul>
+
+<h3>Rules and formulas</h3>
+<div class="tbl"><table>
+<tr><th>Puzzle</th><th>Rule</th></tr>
+<tr><td>Dice – face never seen with X</td><td>List all faces that appear together with X in the views; the one face that never appears with X is <b>opposite</b> X.</td></tr>
+<tr><td>Dice – two views with <b>two common faces</b></td><td>The two remaining (uncommon) faces are opposite each other.</td></tr>
+<tr><td>Cube net (unfolded)</td><td>In a straight strip of faces, faces with exactly one face between them are opposite; adjacent squares in the net are adjacent on the cube. A cube has 11 different nets (extra).</td></tr>
+<tr><td>Painted cube cut into n × n × n small cubes</td><td>3 faces painted = 8 (corners); 2 faces = 12(n − 2); 1 face = 6(n − 2)²; no face = (n − 2)³; total n³</td></tr>
+<tr><td>Two dice – sum s</td><td>Ways = 6 − |s − 7| (sum 7: 6 ways – most likely; sum 2 or 12: 1 way); doublets (same number) = 6</td></tr>
+<tr><td>Addition theorem</td><td>P(A ∪ B) = P(A) + P(B) − P(A ∩ B); mutually exclusive: P(A ∪ B) = P(A) + P(B)</td></tr>
+<tr><td>Cards (extra)</td><td>52 cards, 4 suits × 13; 26 red, 26 black; 4 aces; 12 face cards (K, Q, J)</td></tr>
+<tr><td>Clock angle (extra)</td><td>θ = |30H − 5.5M|° (if &gt; 180°, take 360° − θ). Hands coincide 11 times in 12 h (22 a day); at right angles 44 times a day; opposite 22 times a day</td></tr>
+<tr><td>Calendar – odd days (extra)</td><td>Ordinary year = 52 weeks + 1 odd day; leap year = 2 odd days. Leap year: divisible by 4; a century year only if divisible by 400 (1900 no, 2000 yes). A leap year has 53 Sundays with probability 2/7 (ordinary year 1/7)</td></tr>
+<tr><td>Magic square (extra)</td><td>n × n square of 1 … n² has magic sum n(n² + 1)/2 (3 × 3 → 15)</td></tr>
+</table></div>
+
+<h3>Shortcut tricks (and when to use them)</h3>
+<ul>
+<li><b>Two-dice table</b> – draw a 6 × 6 grid mentally: rows = first die, columns = second; count cells.</li>
+<li><b>"Or" in probability</b> – count the outcomes of both conditions and remove the double-counted ones (if none overlap, just add).</li>
+<li><b>At least one</b> – 1 − P(none): at least one head in 2 coins = 1 − 1/4 = 3/4.</li>
+<li><b>Dice views</b> – first look for a pair of views with two common faces; then use the "never seen together" rule.</li>
+<li><b>Day of the week</b> – count odd days (remainder on dividing days by 7) and move forward.</li>
+</ul>
+
+<h3>Solved examples (TNPSC style)</h3>
+<p><b>1.</b> (TNPSC 2025) Two unbiased dice are rolled once. Probability that the product of the faces is 4 or the difference is 5? (a) 1/12 (b) 5/36 (c) 1/9 (d) 7/36<br>
+Product 4: (1,4), (4,1), (2,2) = 3; difference 5: (1,6), (6,1) = 2; no overlap → 5/36 → <b>(b)</b>.</p>
+<p><b>2.</b> Two dice are thrown. Probability that the sum is 7 or 11?<br>
+Sum 7: 6 ways; sum 11: (5,6), (6,5) = 2 → 8/36 = <b>2/9</b>.</p>
+<p><b>3.</b> Two views of a die show the faces (2, 3, 6) and (3, 6, 4). Which face is opposite 2?<br>
+Common faces 3 and 6 → the uncommon faces 2 and 4 are opposite → <b>4</b>.</p>
+<p><b>4.</b> Three views of a die show (1, 2, 3), (1, 3, 5) and (1, 2, 4). Find the faces opposite 1 and 2.<br>
+Faces seen with 1: 2, 3, 4, 5 → opposite of 1 is <b>6</b>. Faces seen with 2: 1, 3, 4 → remaining 5, 6; 6 is opposite 1 → opposite of 2 is <b>5</b> (so 3 is opposite 4).</p>
+<p><b>5.</b> A cube painted on all faces is cut into 64 equal small cubes. How many small cubes have exactly two faces painted? How many have no face painted?<br>
+n = 4: two faces = 12 × 2 = <b>24</b>; none = 2³ = <b>8</b>; (three faces 8, one face 24; total 64 ✓).</p>
+<p><b>6.</b> Find the angle between the hands of a clock at 3:40.<br>
+|30 × 3 − 5.5 × 40| = |90 − 220| = <b>130°</b>.</p>
+<p><b>7.</b> 1 January 2026 is a Thursday. What day is 1 January 2027?<br>
+2026 is an ordinary year → 1 odd day → <b>Friday</b>.</p>
+<p><b>8.</b> In a 3 × 3 magic square using 1 to 9 once each, every row, column and diagonal adds to? And which number is in the centre?<br>
+Sum = 3 × 10/2 = <b>15</b>; the centre is always the middle number <b>5</b>.</p>
+
+<h3>Practice set (10 Q)</h3>
+<ol>
+<li>Probability of getting a doublet when two dice are thrown is (a) 1/36 (b) 1/12 (c) 1/6 (d) 1/3</li>
+<li>Probability that the sum is 8 with two dice is (a) 1/9 (b) 5/36 (c) 1/6 (d) 7/36</li>
+<li>Probability of an even number on one throw of a die is (a) 1/6 (b) 1/3 (c) 1/2 (d) 2/3</li>
+<li>Two coins are tossed. Probability of at least one head is (a) 1/4 (b) 1/2 (c) 3/4 (d) 1</li>
+<li>A painted cube is cut into 27 equal cubes. Cubes with exactly two faces painted: (a) 6 (b) 8 (c) 12 (d) 1</li>
+<li>A painted cube is cut into 125 equal cubes. Cubes with no face painted: (a) 27 (b) 36 (c) 54 (d) 8</li>
+<li>The angle between the hands of a clock at 2:30 is (a) 90° (b) 105° (c) 115° (d) 120°</li>
+<li>Two views of a die show (4, 1, 2) and (4, 2, 6). Which face is opposite 1? (a) 2 (b) 4 (c) 6 (d) 5</li>
+<li>Probability that a leap year has 53 Sundays is (a) 1/7 (b) 2/7 (c) 3/7 (d) 53/366</li>
+<li>How many times do the hands of a clock coincide in a day? (a) 24 (b) 22 (c) 23 (d) 11</li>
+</ol>
+<details><summary>Show answers</summary><p><b>Answers:</b> 1-c (6/36); 2-b ((2,6), (3,5), (4,4), (5,3), (6,2)); 3-c (3/6); 4-c (1 − P(TT) = 1 − 1/4); 5-c (12(3 − 2)); 6-a ((5 − 2)³); 7-b (|60 − 165|); 8-c (common faces 4 and 2 → 1 and 6 opposite); 9-b (52 weeks + 2 days; the 2 extra days are Sunday in 2 of 7 cases); 10-b (11 times in 12 hours).</p></details>
+
+<p class="top"><a href="#contents">↑ contents</a></p><h2 id="topic-13">Topic 13 · Visual reasoning (Days 43, 45, 47, 49)</h2>
+<p><b>Read:</b> Class 7 Maths Term 3, Ch 4 Geometry §4.2 Symmetry through transformations (reflection, rotation, translation), PDF p. 79–90; Class 7 Term 1, Ch 6 Information Processing §6.2 Tetromino, PDF p. 114–120; Class 8 Maths Ch 2 §2.4 3-D shapes, nets and isometric drawings, PDF p. 72–79; Class 7 Term 2, Ch 5 (patterns with sticks/figures), PDF p. 93–97. Counting formulas, mirror/water-image and paper-folding rules below are standard reasoning methods (extra).</p><div class="pyq"><b>★ Asked before (1)</b> – these points came in past papers; learn them first.<ul><li><b>2022 Q172</b> – Count triangles systematically: 15 in this figure</li></ul></div><!--/pyq-->
+<p><b>In the exam:</b> 1–2 Q in the reasoning block (counting triangles/squares, mirror image, figure series/odd one out, paper folding).</p>
+
+<h3>Concept</h3>
+<ul>
+<li><b>Counting figures</b>: count systematically – single pieces first, then shapes made of 2, 3, 4 … pieces; or use the formulas below.</li>
+<li><b>Mirror image (reflection, எதிரொளிப்பு)</b>: a vertical mirror reverses <b>left and right</b> (order of letters reverses and each letter flips); top and bottom stay. <b>Water image</b>: a horizontal mirror reverses <b>top and bottom</b>; left and right stay.</li>
+<li><b>Transformations</b> (Class 7): reflection (flip about a line), rotation (turn about a point – 90°, 180°), translation (slide without turning). Figure-series questions use these step by step.</li>
+<li><b>Paper folding and cutting</b>: each fold doubles the layers, so a punch through n folds (in halves) gives 2<sup>n</sup> holes, placed symmetrically about the fold lines when opened.</li>
+<li><b>Embedded / hidden figure</b>: the given shape appears inside the answer figure with the same size and orientation.</li>
+<li><b>Tetromino</b> (Class 7): a shape made of 4 squares joined edge to edge (5 basic shapes: I, O, T, L/J, S/Z).</li>
+</ul>
+
+<h3>Formulas</h3>
+<div class="tbl"><table>
+<tr><th>Figure</th><th>Count</th></tr>
+<tr><td>Squares in an n × n grid</td><td>1² + 2² + … + n² = n(n + 1)(2n + 1)/6 (3 × 3 → 14; 4 × 4 → 30; 8 × 8 chessboard → 204)</td></tr>
+<tr><td>Rectangles (including squares) in an m × n grid</td><td>C(m + 1, 2) × C(n + 1, 2) = [m(m + 1)/2] × [n(n + 1)/2] (3 × 3 → 36)</td></tr>
+<tr><td>Triangle with lines from the top vertex dividing the base into n parts</td><td>n(n + 1)/2 triangles</td></tr>
+<tr><td>Equilateral triangle divided into small triangles, n per side</td><td>⌊n(n + 2)(2n + 1)/8⌋ (n = 2 → 5; n = 3 → 13; n = 4 → 27)</td></tr>
+<tr><td>Square or rectangle with both diagonals</td><td>8 triangles (4 small + 4 halves)</td></tr>
+<tr><td>Straight lines through n points (no 3 in a line)</td><td>n(n − 1)/2</td></tr>
+<tr><td>Diagonals of an n-sided polygon</td><td>n(n − 3)/2 (hexagon 9, octagon 20)</td></tr>
+<tr><td>Mirror image of a clock</td><td>Actual time = 11:60 − mirror time (for times between 1:00 and 11:00; for 11:xx or 12:xx use 23:60 −)</td></tr>
+<tr><td>Letters unchanged in a vertical mirror</td><td>A H I M O T U V W X Y</td></tr>
+<tr><td>Letters unchanged in a water image</td><td>B C D E H I K O X</td></tr>
+<tr><td>Cube</td><td>6 faces, 8 vertices, 12 edges; F + V − E = 2; 11 distinct nets (extra)</td></tr>
+</table></div>
+
+<h3>Shortcut tricks (and when to use them)</h3>
+<ul>
+<li><b>Label every point</b> with a letter, then list triangles as letter-triples – no double counting.</li>
+<li><b>Figure series</b> – track one element at a time (position, rotation 45°/90° clockwise or anticlockwise, number of lines increasing by 1, shading moving one step).</li>
+<li><b>Odd one out</b> – check: number of sides/lines, symmetry, direction of rotation, open vs closed figure, shading.</li>
+<li><b>Mirror questions</b> – first find the letters that change; eliminate options where symmetric letters were flipped wrongly.</li>
+<li><b>Paper folding</b> – unfold in reverse order; holes are reflected across each fold line.</li>
+</ul>
+
+<h3>Solved examples (TNPSC style)</h3>
+<p><b>1.</b> How many squares are there in a 4 × 4 grid? In an 8 × 8 chessboard?<br>
+1 + 4 + 9 + 16 = <b>30</b>; 1² + … + 8² = <b>204</b>.</p>
+<p><b>2.</b> How many rectangles (including squares) are there in a grid of 2 rows × 3 columns of squares?<br>
+C(3, 2) × C(4, 2) = 3 × 6 = <b>18</b>.</p>
+<p><b>3.</b> From the top vertex of a triangle, 3 lines are drawn to the base, dividing it into 4 parts. How many triangles?<br>
+n = 4 → 4 × 5/2 = <b>10</b>.</p>
+<p><b>4.</b> An equilateral triangle is divided into 9 small equilateral triangles (3 on each side). Total triangles?<br>
+9 small + 3 of size 2 (pointing up) + 1 whole = <b>13</b> (formula ⌊3·5·7/8⌋ = 13).</p>
+<p><b>5.</b> A clock seen in a mirror shows 4:15. What is the actual time?<br>
+11:60 − 4:15 = <b>7:45</b>.</p>
+<p><b>6.</b> How does the word TOMATO look in a vertical mirror?<br>
+Order reverses; T, O, M, A are symmetric about a vertical line, so they look the same → <b>OTAMOT</b>.</p>
+<p><b>7.</b> A square sheet is folded in half and again in half, and one hole is punched through it. How many holes appear when it is opened?<br>
+2 folds → 2² = <b>4</b> holes, one in each quarter, symmetric about both fold lines.</p>
+<p><b>8.</b> How many straight lines can be drawn through 6 points, no three of which are in a line? How many diagonals has a hexagon?<br>
+6 × 5/2 = <b>15</b> lines; 6 × 3/2 = <b>9</b> diagonals (15 − 6 sides).</p>
+
+<h3>Practice set (10 Q)</h3>
+<ol>
+<li>Number of squares in a 3 × 3 grid: (a) 9 (b) 13 (c) 14 (d) 10</li>
+<li>Number of rectangles (including squares) in a 3 × 3 grid: (a) 14 (b) 27 (c) 36 (d) 18</li>
+<li>An equilateral triangle divided into 4 small equilateral triangles contains how many triangles? (a) 4 (b) 5 (c) 6 (d) 8</li>
+<li>Number of diagonals of an octagon: (a) 16 (b) 20 (c) 24 (d) 28</li>
+<li>Straight lines through 8 points, no three collinear: (a) 16 (b) 24 (c) 28 (d) 56</li>
+<li>A clock in a mirror shows 8:20. Actual time: (a) 3:40 (b) 4:40 (c) 3:20 (d) 4:20</li>
+<li>Which letter looks the same in a vertical mirror? (a) B (b) E (c) M (d) K</li>
+<li>Which letter looks the same in its water image? (a) A (b) M (c) T (d) E</li>
+<li>A square sheet is folded in half three times and one hole is punched. Number of holes on opening: (a) 3 (b) 6 (c) 8 (d) 9</li>
+<li>Number of triangles formed when both diagonals of a rectangle are drawn: (a) 4 (b) 6 (c) 8 (d) 10</li>
+</ol>
+<details><summary>Show answers</summary><p><b>Answers:</b> 1-c (9 + 4 + 1); 2-c (6 × 6); 3-b (4 small + 1 big); 4-b (8 × 5/2); 5-c (8 × 7/2); 6-a (11:60 − 8:20); 7-c (M is symmetric about a vertical line); 8-d (E is symmetric about a horizontal line); 9-c (2³); 10-c (4 small + 4 halves).</p></details>
+
+<p class="top"><a href="#contents">↑ contents</a></p><h2 id="topic-14">Topic 14 · Alphanumeric and logical reasoning – coding, blood relations, direction, seating, syllogism basics (Days 44, 45, 48)</h2>
+<p><b>Read:</b> Class 8 Maths Ch 7 Information Processing §7.7 Cryptology (plain text, cipher text, Caesar cipher, additive cipher), PDF p. 260–267; Class 9 Maths Ch 1 Set Language (Venn diagrams, subsets, intersection – basis of syllogisms), PDF p. 7–46; Class 7 Term 3, Ch 6 Information Processing (scheduling, flowcharts), PDF p. 116–125; Class 7 Term 1, Ch 6 §6.3 Route map (directions), PDF p. 120–124. Blood-relation, seating and ranking rules below are standard reasoning methods (extra).</p><div class="pyq"><b>★ Asked before (6)</b> – these points came in past papers; learn them first.<ul><li><b>2025 Q150</b> – Pairs (6,4), (4,2), (5,3) → 3</li><li><b>2025 Q196</b> – Order F H I/M M/I G D → right of F = H</li><li><b>2025 Q197</b> – Reverse alphabet values (A=26 … Z=1): S8+U6+N13 = 27; C24+A26+T7 = 57</li><li><b>2022 Q128</b> – 22 elements; reverse first 11 → ? 3 A # B 9 r S + P 4 7 c …; 14th from right = 9th from left = &#x27;+&#x27;</li><li><b>2022 Q179</b> – Word NUMBER → N4 U6 M2 B5 E3 R1 = 462531</li><li><b>2024 Q193</b> – Raman = son of Ramanathan; Ragavi and her sister Ramani are Raman&#x27;s daughters → Ramanathan&#x27;s granddaughters</li></ul></div><!--/pyq-->
+<p><b>In the exam:</b> 3–4 Q every year (2024: blood relation, letter arrangement; 2025: coding A = 26, SUN = 27, seating in a row, "a ≠ b ≠ c").</p>
+
+<h3>Concept</h3>
+<ul>
+<li><b>Cryptology</b> = science of communication in secured form (Class 8). <b>Plain text</b> = original message; <b>cipher text</b> = encrypted output (written in capitals); <b>encryption</b> = plain → cipher; <b>decryption</b> = cipher → plain; the <b>key</b> is the secret rule.</li>
+<li><b>Caesar cipher</b> – one of the earliest and simplest ciphers: each letter is <b>shifted</b> a fixed number of places (key +4: a → E, b → F … w → A). <b>Additive cipher</b> – letters replaced by numbers (a = 00 … z = 25) plus a key, wrapping round after 25. Tip from the book: match the most frequently repeated letters first.</li>
+<li><b>Blood relations</b> – draw a family tree: generations in rows, + male / − female, = for married couple.</li>
+<li><b>Direction sense</b> – N up, E right; turning right = clockwise 90°, left = anticlockwise 90°; shortest distance by Pythagoras.</li>
+<li><b>Seating / ranking</b> – draw positions; "left of" in a row facing north = towards the lower position number.</li>
+<li><b>Syllogism</b> – draw Venn diagrams (Class 9 sets): "All A are B" → A ⊂ B; "No A is B" → disjoint; "Some A are B" → overlap. A conclusion follows only if it is true in <b>every</b> possible diagram.</li>
+</ul>
+
+<h3>Rules and formulas</h3>
+<div class="tbl"><table>
+<tr><th>Type</th><th>Rule</th></tr>
+<tr><td>Letter positions</td><td>A1 B2 C3 D4 E5 F6 G7 H8 I9 J10 K11 L12 M13 N14 O15 P16 Q17 R18 S19 T20 U21 V22 W23 X24 Y25 Z26; reverse value = 27 − position (A = 26, Z = 1); <b>EJOTY</b> = 5, 10, 15, 20, 25</td></tr>
+<tr><td>Opposite letters</td><td>Pairs adding to 27: A–Z, B–Y, C–X, D–W, E–V, F–U, G–T, H–S, I–R, J–Q, K–P, L–O, M–N</td></tr>
+<tr><td>Coding types</td><td>shift (+1, −2, alternate +1/−1), reverse order, opposite letters, number coding (position / reverse position / sum of values), symbol substitution (common letters ↔ common symbols)</td></tr>
+<tr><td>k-th letter to the right of the m-th from the left</td><td>position m + k (to the left: m − k); m-th from the right = (27 − m)-th from the left</td></tr>
+<tr><td>Ranking in a row of N</td><td>position from left + position from right = N + 1; persons between two = difference in positions − 1</td></tr>
+<tr><td>Directions</td><td>Right turns from N: E, S, W; left turns from N: W, S, E; 6 north + 8 east → √(36 + 64) = 10 towards north-east</td></tr>
+<tr><td>Relations</td><td>Father's/mother's brother = uncle; their son/daughter = cousin; son's wife = daughter-in-law; husband's/wife's father = father-in-law; brother's son = nephew; son's/daughter's daughter = granddaughter</td></tr>
+<tr><td>Inequality chain</td><td>a ≠ b and b ≠ c tell nothing about a and c (a ≠ c or a = c) – TNPSC 2025. But a &gt; b and b &gt; c ⇒ a &gt; c.</td></tr>
+<tr><td>Days</td><td>Day after tomorrow = today + 2; day before yesterday = today − 2</td></tr>
+</table></div>
+
+<h3>Shortcut tricks (and when to use them)</h3>
+<ul>
+<li><b>Coding</b>: write the positions of the given word and its code one below the other; look at the differences.</li>
+<li><b>Sum coding</b> (A = 26, SUN = 27): test whether the code = sum of positions or reverse positions.</li>
+<li><b>Blood relation "pointing to" sentences</b>: start from the end of the sentence ("my mother's only brother" = my maternal uncle) and work back to the person.</li>
+<li><b>Seating</b>: fill the fixed positions first (ends, centre, "immediate" neighbours), then the rest.</li>
+<li><b>Syllogism</b>: "some" conclusions are reversible (Some A are B ⇒ Some B are A); "all" is not (All A are B does not give All B are A, only Some B are A).</li>
+</ul>
+
+<h3>Solved examples (TNPSC style)</h3>
+<p><b>1.</b> If CAT is coded as DBU, how is DOG coded?<br>
+Each letter +1 → <b>EPH</b>.</p>
+<p><b>2.</b> (TNPSC 2025) If A = 26, SUN = 27, then CAT = ? (a) 24 (b) 27 (c) 57 (d) 58<br>
+Reverse values: S 8 + U 6 + N 13 = 27 ✓ → C 24 + A 26 + T 7 = <b>57 → (c)</b>.</p>
+<p><b>3.</b> (TNPSC 2024) Rameela says, "Ragavi's father Raman is the only son of my father-in-law Ramanathan." How is Ramani, the sister of Ragavi, related to Ramanathan? (a) Wife (b) Sister (c) Daughter (d) Grand daughter<br>
+Raman = only son of Rameela's father-in-law → Raman is Rameela's husband. Ragavi and Ramani are Raman's daughters → Ramani is Ramanathan's son's daughter = <b>granddaughter → (d)</b>.</p>
+<p><b>4.</b> (TNPSC 2025) D, F, G, H, I and M sit in a row. I and M are in the centre; F and D are at the ends; G sits to the left of D (the key reads this as immediately left). Who is to the right of F? (a) H (b) I (c) M (d) G<br>
+Six seats 1–6 (facing us, left = lower number). I, M in seats 3–4. G immediately left of D is possible only with D in seat 6, G in seat 5 → F in seat 1, H in seat 2 → right of F is <b>H → (a)</b>.</p>
+<p><b>5.</b> A man walks 6 km north, turns right and walks 8 km. How far and in which direction is he from the start?<br>
+√(6² + 8²) = <b>10 km, north-east</b>.</p>
+<p><b>6.</b> Ravi is 12th from the left and 17th from the right in a row. How many are in the row?<br>
+12 + 17 − 1 = <b>28</b>.</p>
+<p><b>7.</b> Statements: All pens are books. Some books are bags. Conclusions: I. Some pens are bags. II. Some bags are books.<br>
+II is the reverse of "some books are bags" → follows. Pens may lie outside the bags region → I does not follow. <b>Only II follows.</b></p>
+<p><b>8.</b> Which letter is 7th to the right of the 15th letter from the left of the English alphabet?<br>
+15 + 7 = 22nd letter = <b>V</b>.</p>
+
+<h3>Practice set (10 Q)</h3>
+<ol>
+<li>If PEN is coded QFO, INK is coded (a) JOL (b) HMJ (c) JOM (d) KPM</li>
+<li>If TABLE is written ELBAT, CHAIR is written (a) RIAHC (b) RAIHC (c) CHIAR (d) RIHAC</li>
+<li>If A = 1, B = 2 …, the value of BAT is (a) 22 (b) 23 (c) 24 (d) 25</li>
+<li>Pointing to a man, Meena says, "He is the son of my mother's only brother." The man is Meena's (a) brother (b) uncle (c) cousin (d) nephew</li>
+<li>A is B's brother, C is A's mother and D is C's father. D is B's (a) father (b) uncle (c) grandfather (d) brother</li>
+<li>Facing north, a boy turns right, then right again, then left. He now faces (a) north (b) south (c) east (d) west</li>
+<li>A person walks 3 km east and then 4 km north. Distance from the start: (a) 7 km (b) 5 km (c) 1 km (d) 12 km</li>
+<li>In a row of 40 students, Raja is 15th from the left. His position from the right is (a) 25th (b) 26th (c) 24th (d) 27th</li>
+<li>Statements: All cats are dogs; all dogs are animals. Conclusion "All cats are animals" (a) follows (b) does not follow (c) probably true (d) data inadequate</li>
+<li>The letter opposite to M (in the pairing A–Z, B–Y …) is (a) L (b) N (c) O (d) P</li>
+</ol>
+<details><summary>Show answers</summary><p><b>Answers:</b> 1-a (each letter +1); 2-a (letters written in reverse order); 3-b (2 + 1 + 20); 4-c (mother's brother = maternal uncle; his son = cousin); 5-c (D is father of B's mother C → maternal grandfather); 6-c (N → E → S → turn left → E); 7-b (√(9 + 16)); 8-b (40 − 15 + 1); 9-a (cats ⊂ dogs ⊂ animals); 10-b (13 + 14 = 27).</p></details>
+
+<p class="top"><a href="#contents">↑ contents</a></p><h2 id="sec-8">Formula sheet (Days 64–72)</h2>
+<p><b>Read:</b> revise this sheet daily from Day 64; for any formula you cannot recall, go back to its topic (Topics 1–14 above and in Part A).</p><div class="pyq"><b>★ Asked before (1)</b> – these points came in past papers; learn them first.<ul><li><b>2025 Q192</b> – HCF(108, 234) = 18 → 23x − 51 = 18 → x = 3</li></ul></div><!--/pyq-->
+
+<h3>Numbers, simplification, HCF/LCM</h3>
+<div class="tbl"><table>
+<tr><th>Item</th><th>Formula / fact</th></tr>
+<tr><td>Order</td><td>BODMAS/BIDMAS: brackets ( ) { } [ ] → powers/roots → ÷ × (left to right) → + − (left to right)</td></tr>
+<tr><td>Exponents</td><td>a<sup>m</sup>a<sup>n</sup> = a<sup>m+n</sup>; a<sup>m</sup>/a<sup>n</sup> = a<sup>m−n</sup>; (a<sup>m</sup>)<sup>n</sup> = a<sup>mn</sup>; a<sup>0</sup> = 1; a<sup>−m</sup> = 1/a<sup>m</sup>; a<sup>1/n</sup> = <sup>n</sup>√a</td></tr>
+<tr><td>Identities</td><td>(a ± b)² = a² ± 2ab + b²; a² − b² = (a + b)(a − b); (a + b)² − (a − b)² = 4ab; a³ ± b³ = (a ± b)(a² ∓ ab + b²); a + b + c = 0 ⇒ a³ + b³ + c³ = 3abc</td></tr>
+<tr><td>Series sums</td><td>Σn = n(n+1)/2; Σn² = n(n+1)(2n+1)/6; Σn³ = [n(n+1)/2]²; 1 + 3 + … (n terms) = n²</td></tr>
+<tr><td>Recurring decimal</td><td>0.<span style="text-decoration:overline">a</span> = a/9; 0.<span style="text-decoration:overline">ab</span> = ab/99; 0.a<span style="text-decoration:overline">b</span> = (ab − a)/90</td></tr>
+<tr><td>Unit digit cycles</td><td>2: 2486; 3: 3971; 7: 7931; 8: 8426; 4: 46; 9: 91; 0, 1, 5, 6 fixed (use power ÷ 4 remainder)</td></tr>
+<tr><td>Squares/cubes</td><td>squares end in 0,1,4,5,6,9; 1729 = 12³ + 1³ = 10³ + 9³ (Ramanujan number)</td></tr>
+<tr><td>HCF × LCM</td><td>= product of two numbers; other number = HCF × LCM ÷ given</td></tr>
+<tr><td>Fractions</td><td>HCF = HCF(num)/LCM(den); LCM = LCM(num)/HCF(den)</td></tr>
+<tr><td>Euclid</td><td>a = bq + r, 0 ≤ r &lt; b; HCF = last non-zero divisor</td></tr>
+<tr><td>Remainder types</td><td>greatest number leaving r₁, r₂ → HCF(a − r₁, b − r₂); least number leaving r → LCM + r; leaving (divisor − k) → LCM − k</td></tr>
+<tr><td>Number of factors</td><td>p<sup>a</sup>q<sup>b</sup>r<sup>c</sup> → (a+1)(b+1)(c+1)</td></tr>
+</table></div>
+
+<h3>Percentage, ratio, proportion</h3>
+<div class="tbl"><table>
+<tr><th>Item</th><th>Formula / fact</th></tr>
+<tr><td>Percentage</td><td>x% = x/100; A is (A/B × 100)% of B; % change = change/original × 100</td></tr>
+<tr><td>Increase/decrease</td><td>new = A(1 ± x/100); original = new × 100/(100 ± x)</td></tr>
+<tr><td>Successive</td><td>net % = x + y + xy/100 (− for decrease); x% up then x% down → x²/100 % loss</td></tr>
+<tr><td>Consumption</td><td>price ↑ r% → cut r/(100 + r) × 100 %; price ↓ r% → raise r/(100 − r) × 100 %</td></tr>
+<tr><td>More/less than</td><td>A r% more than B → B is r/(100 + r) × 100 % less than A</td></tr>
+<tr><td>Fraction–% values</td><td>1/3 = 33⅓, 1/6 = 16⅔, 1/7 = 14 2/7, 1/8 = 12½, 1/9 = 11 1/9, 1/11 = 9 1/11, 1/12 = 8⅓, 3/8 = 37½, 5/8 = 62½ (%)</td></tr>
+<tr><td>Ratio</td><td>divide Q in a : b → Qa/(a+b), Qb/(a+b); A:B = a:b, B:C = c:d → A:B:C = ac : bc : bd</td></tr>
+<tr><td>Proportion</td><td>a : b :: c : d ⇔ ad = bc; fourth proportional bc/a; third proportional b²/a; mean proportional √(ab)</td></tr>
+<tr><td>Direct / inverse</td><td>x₁/y₁ = x₂/y₂; x₁y₁ = x₂y₂</td></tr>
+<tr><td>Add x to both terms</td><td>(a + x)/(b + x) = c/d → x = (bc − ad)/(d − c)</td></tr>
+</table></div>
+
+<h3>Interest</h3>
+<div class="tbl"><table>
+<tr><th>Item</th><th>Formula / fact</th></tr>
+<tr><td>Simple interest</td><td>I = Pnr/100; A = P(1 + nr/100); P = 100I/(nr); r = 100I/(Pn); n = 100I/(Pr)</td></tr>
+<tr><td>SI shortcuts</td><td>amount A₁ (n₁ yrs), A₂ (n₂ yrs) → SI/yr = (A₂ − A₁)/(n₂ − n₁); becomes k times in T yrs → r = 100(k − 1)/T; doubles in T → triples in 2T</td></tr>
+<tr><td>Compound interest</td><td>A = P(1 + r/100)<sup>n</sup>; half-yearly P(1 + r/200)<sup>2n</sup>; quarterly P(1 + r/400)<sup>4n</sup>; rates a, b, c → P(1 + a/100)(1 + b/100)(1 + c/100); a b/c years → P(1 + r/100)<sup>a</sup>(1 + (b/c)r/100)</td></tr>
+<tr><td>CI − SI</td><td>2 years: P(r/100)²; 3 years: P(r/100)²(3 + r/100)</td></tr>
+<tr><td>Growth / depreciation</td><td>P(1 + r/100)<sup>n</sup>; P(1 − r/100)<sup>n</sup>; n years ago: P ÷ (1 + r/100)<sup>n</sup></td></tr>
+<tr><td>2-year effective %</td><td>2r + r²/100 (5% → 10.25; 10% → 21; 20% → 44); 10% for 3 yrs → 33.1%</td></tr>
+</table></div>
+
+<h3>Mensuration</h3>
+<div class="tbl"><table>
+<tr><th>Shape</th><th>Formula</th></tr>
+<tr><td>Square / rectangle</td><td>a², 4a, diagonal a√2, area = d²/2; lb, 2(l + b), diagonal √(l² + b²)</td></tr>
+<tr><td>Triangles</td><td>½bh; equilateral (√3/4)a²; Heron √[s(s−a)(s−b)(s−c)], s = (a+b+c)/2</td></tr>
+<tr><td>Quadrilaterals</td><td>parallelogram bh; rhombus ½d₁d₂, side ½√(d₁² + d₂²); trapezium ½h(a + b); quadrilateral ½d(h₁ + h₂)</td></tr>
+<tr><td>Circle family</td><td>πr², 2πr; semicircle ½πr², (π + 2)r; quadrant ¼πr², (π/2 + 2)r; sector (θ/360)πr² = lr/2, arc (θ/360)2πr, perimeter l + 2r; ring π(R + r)(R − r)</td></tr>
+<tr><td>Paths</td><td>outside 2w(l + b + 2w); inside 2w(l + b − 2w); cross roads w(l + b) − w²</td></tr>
+<tr><td>Cuboid / cube</td><td>lbh, 2(lb + bh + hl), LSA 2h(l + b), diagonal √(l² + b² + h²); a³, 6a², 4a², a√3</td></tr>
+<tr><td>Cylinder</td><td>πr²h; CSA 2πrh; TSA 2πr(h + r); hollow πh(R² − r²)</td></tr>
+<tr><td>Cone</td><td>⅓πr²h; l = √(r² + h²); CSA πrl; TSA πr(l + r)</td></tr>
+<tr><td>Sphere / hemisphere</td><td>(4/3)πr³, 4πr²; (2/3)πr³, CSA 2πr², TSA 3πr²</td></tr>
+<tr><td>Frustum</td><td>⅓πh(R² + Rr + r²); CSA π(R + r)l</td></tr>
+<tr><td>Units / scale</td><td>1 m³ = 1000 L; 1 L = 1000 cm³; 1 ha = 10,000 m²; lengths × k → area × k², volume × k³; cone = ⅓ cylinder (same r, h)</td></tr>
+</table></div>
+
+<h3>Time &amp; work, mixed arithmetic</h3>
+<div class="tbl"><table>
+<tr><th>Item</th><th>Formula / fact</th></tr>
+<tr><td>Work</td><td>together ab/(a + b); three abc/(ab + bc + ca); A + B in x, A in y → B = xy/(y − x); P₁D₁H₁/W₁ = P₂D₂H₂/W₂</td></tr>
+<tr><td>Wages, pipes</td><td>shares ∝ 1/x : 1/y : 1/z; leak empties in ab/(b − a); B x% more efficient → T × 100/(100 + x)</td></tr>
+<tr><td>Average</td><td>sum/number; misread: mean + (correct − wrong)/n; first n naturals (n + 1)/2</td></tr>
+<tr><td>Profit &amp; loss</td><td>gain% = gain/C.P × 100; S.P = C.P(100 ± %)/100; C.P = S.P × 100/(100 ± %); C.P of x = S.P of y → (x − y)/y × 100</td></tr>
+<tr><td>Discount / GST</td><td>discount% on M.P; successive a, b → a + b − ab/100; bill = M.P(100 + GST)/100; CGST = SGST = half</td></tr>
+<tr><td>Speed</td><td>km/h × 5/18 = m/s; average speed 2xy/(x + y); train: (L₁ + L₂)/(relative speed)</td></tr>
+</table></div>
+
+<h3>Reasoning</h3>
+<div class="tbl"><table>
+<tr><th>Item</th><th>Formula / fact</th></tr>
+<tr><td>AP / GP</td><td>t<sub>n</sub> = a + (n − 1)d; n = (l − a)/d + 1; S<sub>n</sub> = n/2(a + l); t<sub>n</sub> = ar<sup>n−1</sup>; S<sub>n</sub> = a(r<sup>n</sup> − 1)/(r − 1)</td></tr>
+<tr><td>Fibonacci</td><td>1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144; every 3rd even, 4th ÷ 3, 5th ÷ 5</td></tr>
+<tr><td>Letters</td><td>A–Z = 1–26; reverse = 27 − n; EJOTY = 5, 10, 15, 20, 25; opposite pairs add to 27</td></tr>
+<tr><td>Probability</td><td>P = favourable/total; two dice 36 outcomes; sum s in 6 − |s − 7| ways; doublets 6; P(A∪B) = P(A) + P(B) − P(A∩B); n coins 2<sup>n</sup></td></tr>
+<tr><td>Dice / cube</td><td>face never seen with X is opposite X; two views with two common faces → the others are opposite; painted n³ cube: 8, 12(n − 2), 6(n − 2)², (n − 2)³</td></tr>
+<tr><td>Counting figures</td><td>squares in n × n = Σk²; rectangles in m × n = C(m+1,2)·C(n+1,2); lines n(n − 1)/2; diagonals n(n − 3)/2</td></tr>
+<tr><td>Clock / calendar</td><td>θ = |30H − 5.5M|; mirror time = 11:60 − shown; ordinary year 1 odd day, leap year 2; century leap only if ÷ 400</td></tr>
+<tr><td>Ranking / direction</td><td>left + right − 1 = total; displacement by Pythagoras</td></tr>
+</table></div>
+</main></body></html>
